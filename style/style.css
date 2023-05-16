@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(../img/playing.jpg);
+    font-family: 'Bruno Ace', cursive;
+}
+
+.nav-bar{
+    font-size: 1rem;
+    background-color: rgba(190, 190, 190, 0.692);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    gap: 1rem;
+    align-items:center;
+    width:auto;
+    height: 3rem;
+    transition:all 1 step-start;
+    position: sticky;
+}
+#home{
+    color: blueviolet;
+    margin-left:2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#about{
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#benefits, #more,#contact{
+    color: blueviolet;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#home:hover {
+    transform: scale(1.1, 1.1) ;
+    background-color: rgb(188, 160, 233);
+}
+#about:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#contact:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+
+#more:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+#benefits:hover{
+    transform: scale(1.1, 1.1);
+    background-color: rgb(188, 160, 233);
+}
+
+#logo{
+    
+    margin-left: 20rem;
+    width: 55px;
+    height:50px;
+    object-fit: cover;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section0{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.cajagirl{
+    width: 100%;
+    height: 20rem;
+    display:flex;
+    margin-top: 3rem;
+    justify-content: right;
+}
+.cajaguys{
+    width: 100%;
+    height: 40rem;
+    display:flex;
+    justify-content: right;  
+}
+#girl{
+    width: 70rem;
+    height: 300px;
+    object-fit: cover;
+}
+.imagen2{
+    object-fit: cover;
+    width:500px;
+    height: 400px;
+}
+.parrafo{
+    font-size: 1.5rem;
+    color: rgb(192, 192, 192);
+    margin-right: 4rem;
+    margin-top: 4rem;
+    } 
+/*Hasta aca son los styles de home*/
+/*Ahora comienzan los estilos de About Us*/
+.presentation2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color: rgb(192, 192, 192);
+   text-align: center;
+   margin-top: 2rem;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:row;
+}
+.imgs{
+    display: flex;
+    width: 30rem;
+    height:60rem;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-around; 
+    margin: 0%; 
+}
+div img{   
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60rem;
+    color: rgb(192, 192, 192);
+}
+#love{
+    font-size: 1.5rem;
+    top:16rem;
+}
+#love2{
+    font-size: 1.5rem;
+    top:35rem;
+}
+#love3{
+    font-size: 1.5rem;
+    top:55rem;
+}
+
+/*Contact*/
+#presentation3{
+    display: flex;
+    flex-direction: column;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgcontact{
+    display: flex;
+    margin-left: 4rem;
+    width: 10rem;
+    height: 30rem;
+    object-fit: cover;
+}
+/*aca empieza el footer */
+
+footer>nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(190, 190, 190, 0.692);
+}
+/*More Information*/
+.presentation4, .presentation5{
+    color: rgb(250, 110, 255);
+    text-align: center;
+    margin-top: 2rem;
+}
+.sTable{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+table td,th{
+    border: 2px solid white;
+    color: azure;
+    width:10rem;
+    height: 7rem;
+    margin-top: 15rem;
+}
+/*benefits*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    height: 70rem;
+    flex-direction:row;
+}
+.imgs2{
+    display: flex;
+    width: 20rem;
+    height:60rem;
+    margin-right: 10rem;
+    margin-left: 1rem;
+    flex-direction: column; 
+    justify-content: space-around;  
+}
+
+.parrafos2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:start;
+    width: 40rem;
+    height: 50rem;
+    color: white;
+}
+.lista1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    width: 40rem;
+    height: 20rem;
+}
+.lista2{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 20rem;
+    margin-top: 22rem;
+    }
+.subtittle{
+    color: rgb(250, 110, 255);
+}
